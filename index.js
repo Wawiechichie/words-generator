@@ -17,7 +17,7 @@ let apiKey = "8fe22908f12at3143aof40dfb7505473";
 let prompt = `User instructions: Generate shona words ${instructionsInput.value}`;
 let context = `
 You are an excellent teacher who makes the Shona language easy to understand.
-Your mission is to teach non-Shona-speaking people the Shona language.
+Your mission is to generate the answer in basic HTML format for non-Shona-speaking people and in your answer dont include the word html.
 
 Please follow these guidelines
 - put the shona words in bolds letters.
