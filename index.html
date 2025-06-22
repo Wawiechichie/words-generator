@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
    <link rel="stylesheet" href="style.css">
-    <title>words generator</title>
+    <title>Words generator</title>
 </head>
 <body>
     <div class="container">
@@ -14,7 +15,7 @@
     </h1>
 </header>
 <main>
-    <form>
+    <form id="words-generator-form">
         <input type="text"  
         placeholder="Enter the english word..."
         autofocus
@@ -24,8 +25,7 @@
         />
     <input type="submit" class="button"/>
     </form>
-    <div class="words">
-        Word generator
+    <div class="words" id="shona-words">
     </div>
 </main>
     <footer>
